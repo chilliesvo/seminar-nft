@@ -25,7 +25,7 @@ async function main() {
 
   const verifyArguments = {
     deployer: deployer,
-    project : monkey.address,
+    monkey : monkey.address,
   };
 
   await fs.writeFileSync("contracts.json", JSON.stringify(verifyArguments));
