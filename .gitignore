@@ -4,3 +4,4 @@ yarn.lock
 artifacts
 cache
 contracts.json
+.vscode

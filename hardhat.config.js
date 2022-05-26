@@ -1,9 +1,16 @@
+// Loading env configs for deploying and public contract source
 require("dotenv").config();
 
+// Using hardhat-ethers plugin for deploying
+// See here: https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html
+//           https://hardhat.org/guides/deploying.html
 require("@nomiclabs/hardhat-ethers")
 
+// Testing plugins with Waffle
+// See here: https://hardhat.org/guides/waffle-testing.html
 require("@nomiclabs/hardhat-waffle");
 
+// Verify and public source code on etherscan
 require("@nomiclabs/hardhat-etherscan"); 
 
 module.exports = {
